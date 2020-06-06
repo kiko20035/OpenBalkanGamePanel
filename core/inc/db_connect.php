@@ -2,14 +2,14 @@
 function rootsec() {	
 $servername = "localhost";	
 $username = "root";	
-$password = "";	
+$password = "1012";	
 $dbname = "obgp";	
 return new PDO("mysql:host=".$servername.";dbname=$dbname", $username, $password);	
 }	
 function firewallsec() {	
 $servername = "localhost";	
 $username = "root";	
-$password = "";	
+$password = "1012";	
 $dbname = "obgp";	
 return new mysqli($servername, $username, $password, $dbname);	
 }	
